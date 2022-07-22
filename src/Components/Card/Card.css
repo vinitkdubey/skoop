@@ -1,0 +1,38 @@
+.card {
+  background-color: #f0f0f0;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  height: 65vh;
+  position: relative;
+}
+
+.card span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card p.leaderboard {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #fb7100;
+  margin-top: 0.7rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.vote {
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  background-color: #43fb00;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-weight: bold;
+}
